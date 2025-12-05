@@ -1,0 +1,20 @@
+# GhostLogin Detector - application.properties template
+
+# Server
+server.port=8080
+
+# Auth0
+auth0.issuer=https://YOUR_DOMAIN/
+auth0.audience=YOUR_AUDIENCE
+
+# MongoDB
+spring.data.mongodb.uri=mongodb://localhost:27017/ghostlogin
+
+# CORS
+frontend.origin=http://localhost:5173
+
+# AWS (set as environment vars recommended)
+# AWS_ACCESS_KEY_ID=...
+# AWS_SECRET_ACCESS_KEY=...
+# AWS_REGION=us-east-1
+# S3_BUCKET_NAME=your-bucket
